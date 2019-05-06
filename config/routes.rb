@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :reviews
   root 'books#index'
   resources :books
   devise_for :users

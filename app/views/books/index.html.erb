@@ -20,6 +20,7 @@
       </tr>
     <% end %>
   </tbody>
-   <%= paginate @books %>
 </table>
+<%= paginate @books %>
+<br>
 <%= link_to 'New Book', new_book_path, :class => 'btn btn-primary' %>
